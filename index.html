@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <main>
+      <div id="wrapper">
+        <!-- Sign-up form start -->
+        <section class="hero-image sign-up">
+          <img
+            src="/assets/images/illustration-sign-up-mobile.svg"
+            alt="desktop and form submission"
+            class="mobile-image"
+          />
+          <img
+            src="/assets/images/illustration-sign-up-desktop.svg"
+            alt="desktop and form submission"
+            class="desktop-image"
+          />
+        </section>
+
+        <section class="texts">
+          <div class="container">
+            <div class="header-title">
+              <h1>Stay updated!</h1>
+            </div>
+            <div class="sub-text">
+              <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            </div>
+            <div class="list-text">
+              <div class="list one">
+                <img src="/assets/images/icon-list.svg" alt="check mark" />
+                <p>Product discovery and building what matters</p>
+              </div>
+              <div class="list two">
+                <img src="/assets/images/icon-list.svg" alt="check mark" />
+                <p>Measuring to ensure updates are a success</p>
+              </div>
+              <div class="list three">
+                <img src="/assets/images/icon-list.svg" alt="check mark" />
+                <p>And much more!</p>
+              </div>
+              <!-- <ul>
+              <img src="/assets/images/icon-list.svg" alt="check mark" />
+              <li>Product discovery and building what matters</li>
+              <li>
+                <img src="/assets/images/icon-list.svg" alt="check mark" />
+                Measuring to ensure updates are a success
+              </li>
+              <li>
+                <img src="/assets/images/icon-list.svg" alt="check mark" /> And
+                much more!
+              </li>
+            </ul> -->
+            </div>
+            <div class="email-area">
+              <div class="email-confirmation">
+                <p class="email">Email address</p>
+                <p class="valid-email hidden">Valid Email Required</p>
+              </div>
+              <input
+                type="email"
+                name="email-field"
+                placeholder="email@company.com "
+                class="email-field"
+              />
+            </div>
+            <button class="btn submit" type="submit">
+              Subscribe to monthly newsletter
+            </button>
+          </div>
+        </section>
+      </div>
+      <!-- Sign-up form end -->
+
+      <!-- Success message start -->
+
+      <section class="success-state hidden">
+        <div id="wrap">
+          <div class="container">
+            <img src="/assets/images/icon-success.svg" alt="check mark big" />
+            <div class="header-title-ss">
+              <h1>Thanks for subscribing!</h1>
+            </div>
+            <p>
+              A confirmation email has been sent to
+              <span class="target-input-email">ash@loremcompany.com.</span>
+              Please open it and click the button inside to confirm your
+              subscription.
+            </p>
+            <button type="submit" class="btn dismiss">Dismiss message</button>
+          </div>
+        </div>
+      </section>
+      <!-- Success message end -->
+
+      <div class="footer">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://twitter.com/sotundenuel">Sotunde Emmanuel Adefenwa</a>.
+      </div>
+    </main>
+    <script src="/assets/scripts/script.js"></script>
+  </body>
+</html>
