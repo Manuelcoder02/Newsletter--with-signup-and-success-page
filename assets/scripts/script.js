@@ -48,4 +48,8 @@ dismissBtnEL.addEventListener("click", function () {
   heroImageEL.classList.remove("hidden");
   textsEL.classList.remove("hidden");
   successStateEL.classList.add("hidden");
+   validEmailEL.classList.add("hidden");
+  emailFieldEL.classList.remove("form-color");
+  emailFieldEL.classList.remove("text-color");
+  emailFieldEL.value = "";
 });
