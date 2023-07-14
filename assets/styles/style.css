@@ -185,7 +185,7 @@ input:hover {
 
 /* ---MEDIA QUERY FOR SCREENS BIGGER THAN 375px ---- */
 
-@media (min-width: 376px) {
+@media (min-width: 420px) {
   .hero-image .desktop-image {
     display: flex;
     max-width: 80%;
